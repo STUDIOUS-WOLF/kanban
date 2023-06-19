@@ -1,0 +1,12 @@
+.appContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow-x: auto;
+    justify-content: space-around;
+   
+}
+.button{
+    width: 100px;
+    height: 100px;
+}

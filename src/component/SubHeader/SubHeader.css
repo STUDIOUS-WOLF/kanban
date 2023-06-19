@@ -1,0 +1,53 @@
+.subHeader {
+  display: flex;
+  background: #ffffff;
+  width: 100%;
+  justify-content: space-around;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+.subHeaderLeft {
+  flex: 1;
+  display: flex;
+  justify-content: start;
+  padding-left: 5vh;
+}
+.filter {
+  width: 122px;
+  height: 40px;
+  border: 1px solid #787486;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-right: 2vh;
+  margin-right: 2vh;
+}
+.calender {
+  width: 122px;
+  height: 40px;
+
+  border: 1px solid #787486;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.subHeaderRight {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 220px;
+  max-height: 40px;
+}
+.share {
+  width: 97px;
+  height: 40px;
+  border: 1px solid #787486;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-right: 2vh;
+  margin-right: 2vh;
+}

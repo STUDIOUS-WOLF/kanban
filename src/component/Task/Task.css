@@ -1,0 +1,62 @@
+.task{
+    width: 314px;
+    height: 177px;
+    
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 2vh;
+}
+.taskLable{
+width: 36px;
+height: 23px;
+
+background: rgba(223, 168, 116, 0.2);
+border-radius: 4px;
+}
+.taskHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.userIcon{
+    display: flex;
+    flex-direction: row;
+    width: 63;
+    height: 24;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footerLeft{
+    display: flex;
+}
+.footericon{
+    width: 16px;
+height: 16px;
+margin: 2vh;
+}
+.footerRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footerText{
+    width: 77px;
+height: 15px;
+margin:2vh;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+color: #787486;
+}
+input {
+    margin-bottom: 15px;
+    height: 30px;
+    width:280px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    display: block;
+}
